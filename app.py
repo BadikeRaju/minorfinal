@@ -10,7 +10,7 @@ import re
 app = Flask(__name__)
 app.secret_key = 'Raju'
 # Load the dataset
-dataset = pd.read_csv("Crop and fertilizer dataset.csv.csv")
+dataset = pd.read_csv("Crop and fertilizer dataset.csv")
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
