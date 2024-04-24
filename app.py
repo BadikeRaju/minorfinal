@@ -101,5 +101,5 @@ def results():
     results = session.get('results', {})
     return render_template('results.html', results=results)
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run(debug=True)
