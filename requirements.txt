@@ -4,3 +4,4 @@ scikit-learn
 numpy
 pyttsx3
 gunicorn
+pyttsx3 espeak
