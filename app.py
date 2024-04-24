@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pyttsx3
 import re
 
-app = Flask(_name_)
+app = Flask(__name__)
 app.secret_key = 'Raju'
 # Load the dataset
 dataset = pd.read_csv("Crop and fertilizer dataset.csv.csv")
